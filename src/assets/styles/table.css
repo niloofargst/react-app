@@ -1,0 +1,33 @@
+table {
+    margin: 24px auto;
+    border: 3px solid #ee2e31;
+    table-layout: fixed;
+}
+
+table th {
+    background-color: #1d7874!important;
+    color: #071e22 !important;
+    overflow: hidden;
+}
+
+table tr {
+    cursor: pointer;
+    background-color: #679289;
+    height:  46px !important;
+
+}
+
+table tr:nth-child(2n+1) {
+    background-color: #f4c095 !important;
+}
+
+table td {
+    padding: 2px 8px !important;
+    width: 100px;
+}
+
+table td:last-child {
+    padding: 2px 8px;
+    border-right:  none;
+}
+

@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: #f8e9dd;
+    padding-top: 80px;
+}
+
+header, footer {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: #679289;
+    color: black;
+    z-index: 999;
+}
+
+header {
+    top: 0;
+    height: 74px;
+    border-bottom: solid #ee2e31 2px;
+    padding: 4px;
+}
+
+footer {
+    bottom: 0;
+    height: 18px;
+    font-size: 10px;
+    padding-top: 4px;
+    border-top: solid black 1px;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+button {
+  padding: 0.4em 0.9em;
+  margin-right: 0.3em;
+  letter-spacing: 1pt;
+  background-color: #679289;
+  border-radius: 5px;
+  color: #f4c095;
+  font-weight: bold;
+  cursor: pointer;
+}

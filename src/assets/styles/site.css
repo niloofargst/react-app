@@ -1,0 +1,54 @@
+.left {
+    float: left;
+
+}
+
+.right {
+    float: right;
+}
+
+.navigator {
+    margin-top: 24px;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .homeLogo {
+    width: 400px;
+    margin-top: 5em;
+  }
+  
+  .message {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+  }
+  
+  .error {
+    color: #fc2003;
+    letter-spacing: 0.3pt;
+  }
+
+  .link {
+    text-decoration: none;
+    color: black;
+    text-decoration: none;
+  }
+
+  .link:visited {
+    color: #252525;
+  }
+
+  .link:hover {
+    color: #fc2003;
+  }
